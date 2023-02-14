@@ -23,14 +23,11 @@ namespace OttoMicrowave.Testes
             };
 
             microwave.CreationOfQuickModes();
-           
 
             Assert.True(microwave.Modes.Count > 1);
             Assert.True(microwave.Modes.Count == 5);
             Assert.NotNull(microwave.Modes[0]);
         }
-
-       
 
     }
 }

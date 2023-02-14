@@ -59,5 +59,32 @@ namespace OttoMicrowave.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Microwave_Offt {
+            get {
+                return ResourceManager.GetStream("Microwave_Offt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Microwave_On {
+            get {
+                return ResourceManager.GetStream("Microwave_On", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string MicrowaveOff_wma {
+            get {
+                return ResourceManager.GetString("MicrowaveOff.wma", resourceCulture);
+            }
+        }
     }
 }

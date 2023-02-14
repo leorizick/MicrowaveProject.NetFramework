@@ -100,3 +100,5 @@ C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\obj\Debug\net6.0\refint
 C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\obj\Debug\net6.0\MicrowaveTest.pdb
 C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\obj\Debug\net6.0\MicrowaveTest.genruntimeconfig.cache
 C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\obj\Debug\net6.0\ref\MicrowaveTest.dll
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\bin\Debug\net6.0\resources\Microwave-Offt.wav
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveServiceTests\bin\Debug\net6.0\resources\Microwave-On.wav

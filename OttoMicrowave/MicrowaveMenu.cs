@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,6 +27,8 @@ namespace OttoMicrowave
         private Thread countdownThread;
         private bool countingDown;
         private bool paused;
+        private SoundPlayer SPlayerOn = new SoundPlayer(Properties.Resources.Microwave_On);
+        private SoundPlayer SPlayerOff = new SoundPlayer(Properties.Resources.Microwave_Offt);
 
 
         public event EventHandler<TimeInvalidException> EventException;
@@ -158,6 +161,8 @@ namespace OttoMicrowave
 
 
             }
+            SPlayerOn.Stop();
+            SPlayerOff.Play();
             labelOutPut.Text += "Aquecimento concluído";
             Microwave.Working = false;
             countingDown = false;
@@ -190,6 +195,7 @@ namespace OttoMicrowave
         {
             if (!countingDown)
             {
+                SPlayerOn.PlayLooping();
                 countingDown = true;
                 countdownThread = new Thread(new ThreadStart(CountDown));
                 countdownThread.Start();
@@ -198,6 +204,8 @@ namespace OttoMicrowave
 
         private void StopCountdown()
         {
+            SPlayerOn.Stop();
+
             if (countingDown)
             {
                 countingDown = false;
@@ -208,11 +216,13 @@ namespace OttoMicrowave
 
         private void PauseCountdown()
         {
+            SPlayerOff.Play();
             paused = true;
         }
 
         private void ResumeCountdown()
         {
+            SPlayerOn.PlayLooping();
             Microwave.Working = true;
             paused = false;
         }

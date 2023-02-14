@@ -113,6 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="resources\fechado.png" />
+    <None Include="resources\Microwave-Offt.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resources\Microwave-On.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.1.0.0\analyzers\dotnet\cs\xunit.analyzers.dll" />

@@ -19,3 +19,5 @@ C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\xunit.abstractions.xm
 C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\xunit.assert.xml
 C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\xunit.core.xml
 C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\xunit.execution.desktop.xml
+C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\resources\Microwave-Offt.wav
+C:\workspace\Back\C#\OttoMicrowave\OttoMicrowave\bin\Debug\resources\Microwave-On.wav
