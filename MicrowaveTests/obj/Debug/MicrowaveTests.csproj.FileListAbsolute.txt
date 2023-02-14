@@ -1,0 +1,12 @@
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\obj\Debug\MicrowaveTests.csproj.AssemblyReference.cache
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\obj\Debug\MicrowaveTests.csproj.CoreCompileInputs.cache
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\MicrowaveTests.dll
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\MicrowaveTests.pdb
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\nunit.framework.dll
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\OttoMicrowave.exe
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\OttoMicrowave.pdb
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\OttoMicrowave.exe.config
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\bin\Debug\nunit.framework.xml
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\obj\Debug\MicrowaveTests.csproj.CopyComplete
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\obj\Debug\MicrowaveTests.dll
+C:\workspace\Back\C#\OttoMicrowave\MicrowaveTests\obj\Debug\MicrowaveTests.pdb
